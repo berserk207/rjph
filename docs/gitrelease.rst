@@ -22,5 +22,5 @@ Features are named thusly:
 	- feature/jprmXXX* - JP redmine requests
 	- feature/asYYmmddX** - Chatter asana requests
 
-	-- *XXX stands for the redmine number.
-	-- **YYmmdd is the current date, X is [a-z] depending on the sequence of the request for that day.
+		*XXX stands for the redmine number.
+		**YYmmdd is the current date, X is [a-z] depending on the sequence of the request for that day.
