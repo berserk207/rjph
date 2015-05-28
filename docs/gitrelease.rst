@@ -25,6 +25,8 @@ Features are named thusly:
 		* *XXX stands for the redmine number.
 		* **YYmmdd is the current date, X is [a-z] depending on the sequence of the request for that day.
 
+
+
 The developer needs to checkout(switch to) that branch and work on that issue until everything is completed (including the unit tests). In order to be able to perform code review on that feature, the developer needs to push it to the **origin** (JP Gitlab) repository. The code will then be available for viewing inside *Redmine Blue*. Upon completion of the code review and the application of code changes, if there is any, the issue will now enter the testing stage.
 
 QA Testing
