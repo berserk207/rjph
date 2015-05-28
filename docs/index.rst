@@ -14,6 +14,7 @@ Contents:
    
    gitstarter
    gitflow
+   gitrelease
    codereview
    vagrant
 
