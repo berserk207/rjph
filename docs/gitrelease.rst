@@ -6,8 +6,15 @@ Intro
 
 The release process will apply to all PH releases (internal tools and front-facing websites). 
 
-The Process
------------
+Flowchart
+---------
+
+.. figure:: _static/gitreleaseprocess.png
+    :align: center
+
+
+Process Explanation
+-------------------
 
 Development
 ~~~~~~~~~~~
