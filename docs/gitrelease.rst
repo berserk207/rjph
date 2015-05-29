@@ -22,8 +22,11 @@ Development
 This process will mostly involve the **develop** and **feature** branches. 
 
 1. The process starts when the developers receive the request via redmine. The first step that needs to be done is to create a new feature branch for that request. This can be done using either tortoisegit or sourcetree (or by using git commands).
+
 #. The developer needs to checkout(switch to) that branch and work on that issue until everything is completed (including the unit tests). 
+
 #. In order to be able to perform code review on that feature, the developer needs to push it to the **origin** (JP Gitlab) repository. The code will then be available for viewing inside *Redmine Blue*. 
+
 #. Upon completion of the code review and the application of code changes, if there is any, the issue will now enter the testing stage.
 
 Features are named thusly:
