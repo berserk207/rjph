@@ -7,7 +7,8 @@ This is just a simple guide for getting started with git.
 Install git bash
 ----------------
 
-Install git bash from this `https://msysgit.github.io/ <https://msysgit.github.io/>`_.
+Download and install git bash from 
+`https://msysgit.github.io/ <https://msysgit.github.io/>`_.
 
 
 Clone
