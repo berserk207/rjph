@@ -39,7 +39,7 @@ You can propose changes (add it to the Index) using::
     git add <filename>
     git add <filename1> <filename2> <filename3>
     
-To add all file (changed/added)::
+To add all files (changed/added)::
 
     git add *
     git add .
@@ -48,6 +48,12 @@ To add all file (changed/added)::
 This is the first step in the basic git workflow. To actually commit these changes use::
 
     git commit -m "Commit message"
+
+If you want multiline comments::
+
+    git commit -m "
+
+then add your multiline comments, once done you type `"` and enter
 
 Now the file is committed to the HEAD, but not in your remote repository yet.
 
