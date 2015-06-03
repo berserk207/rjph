@@ -74,7 +74,7 @@ Cloning a new Repository
 ------------------------
 
 Using Tortoisegit
-~~~~~~~~~~~~~~~~~	
+~~~~~~~~~~~~~~~~~
 
 - Go to any folder. Right-click and then select "Git Clone".
 
@@ -95,7 +95,24 @@ Using Tortoisegit
 	
 .. figure:: _static/tgclone4.png
     :align: center	
-	
+
+Using SourceTree
+~~~~~~~~~~~~~~~~
+
+- Set the SSH connection for this process to succeed. Set this in Tools > Options. On the SSH Key input, browse the private key you created using PuTTYgen. On the SSH Client dropdown, select "PuTTY/Plink" option.
+.. figure:: _static/stclone1.png
+    :align: center
+
+- Now that you're all set up, go to the dashboard and click the "Clone/New" button. Paste in the SSH link provided in RSDS and indicate your target destination. 
+.. figure:: _static/stclone2.png
+    :align: center
+
+- Click "Clone" and wait for the cloning to finish. This may take a few minutes.
+
+- Once done, you may checkout the other branches you need using the "Checkout" button and selecting the branch you need.
+.. figure:: _static/stclone3.png
+    :align: center
+
 Committing and Pushing	
 ----------------------
 
