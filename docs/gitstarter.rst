@@ -103,19 +103,19 @@ Using SourceTree
 
 .. figure:: _static/stclone1.png
     :align: center
-	
+
 - Now that you're all set up, go to the dashboard and click the "Clone/New" button. Paste in the SSH link provided in RSDS and indicate your target destination. 
 
 .. figure:: _static/stclone2.png
     :align: center
-	
+
 - Click "Clone" and wait for the cloning to finish. This may take a few minutes.
 
 - Once done, you may checkout the other branches you need using the "Checkout" button and selecting the branch you need.
 
 .. figure:: _static/stclone3.png
     :align: center
-	
+
 Committing and Pushing	
 ----------------------
 
