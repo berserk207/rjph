@@ -110,7 +110,7 @@ For sample's sake, let's assume that subtasks 1 and 2 have issue numbers 1235 an
 Git Branches
 ************
 
-Git branches for the request will be formatted consistently with the Redmine Issue equivalent. The following convention should be followed:
+Git branches for the request will be formatted consistently with the Blue Redmine Issue equivalent. The following convention should be followed:
 
 - **Feature branch**: rm *XXXX*
 - **Subtask branch**: rm *XXXX-XXXX*
