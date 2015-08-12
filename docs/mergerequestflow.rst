@@ -16,7 +16,7 @@ The main idea is simply described by the following steps:
 
 This is further refined for small and bigger requests. Below is the visual flow of a request's branch life cycle in both small and large requests.
 
-.. figure:: _static/mregeRequestFlow.png
+.. figure:: _static/mergeRequestFlow.png
 
 .. note::
     - Notice that merge requests from feature to develop is only strictly observed for small requests since these requests won't have any subtasks.
