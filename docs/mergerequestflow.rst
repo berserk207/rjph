@@ -16,7 +16,7 @@ The main idea is simply described by the following steps:
 
 This is further refined for small and bigger requests. Below is the visual flow of a request's branch life cycle in both small and large requests.
 
-.. figure:: _static/mregeRequestFlow.png
+.. figure:: _static/mergeRequestFlow.png
 
 .. note::
     - Notice that merge requests from feature to develop is only strictly observed for small requests since these requests won't have any subtasks.
@@ -73,7 +73,7 @@ Counterpart feature redmine branch should be created once the Green Redmine task
 
 For feature Blue Redmine issues, the following details should be considered:
 
-- **Title**: GRM *XXX <Title of Green Redmine Issue>*
+- **Title**: GRMXXX *<Title of Green Redmine Issue>*
 - **Description**: Link to the Green Redmine Issue
 - **Tracker**: Request
 
@@ -85,7 +85,7 @@ See the sample below::
 
 For subtask Blue Redmine issues, the following details should be filled out:
 
-- **Title**: GRM *XXX <Task to be done>**
+- **Title**: GRMXXX *<Task to be done>*
 - **Description**: Brief description of task to be done on subtask
 - **Tracker**: Task
 - **Parent Task**: Feature Blue Redmine parent issue
@@ -112,8 +112,8 @@ Git Branches
 
 Git branches for the request will be formatted consistently with the Blue Redmine Issue equivalent. The following convention should be followed:
 
-- **Feature branch**: rm *XXXX*
-- **Subtask branch**: rm *XXXX-XXXX*
+- **Feature branch**: rmXXXX
+- **Subtask branch**: rmXXXX-XXXX
 
 The first set of *XXXX*'s is the Feature BRM issue number and the succeeding (if applicable) is the Subtask BRM issue number. Taking the examples above, the following will be the git branch names for their request::
 
@@ -127,6 +127,6 @@ GitLab Merge Requests
 
 GitLab Merge Requests should also follow a naming convention for requests to be easily identified. Therefore, the following details should be filled out:
 
-- **Title**: GRM *XXX <Title of Green Redmine Issue>*
+- **Title**: GRMXXX *<Title of Green Redmine Issue>*
 - **Description**: Changes done on this merge
 - **Assign To**: Tech Lead
