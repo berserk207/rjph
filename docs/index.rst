@@ -17,6 +17,7 @@ Contents:
    gitrelease
    gitcommandline
    codereview
+   mergerequestflow
    vagrant
 
 .. toctree::
